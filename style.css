@@ -39,13 +39,26 @@ body{
     text-align: center;
 }
 .para{
-    text-decoration: none;
+
     font-family:'Courier New', Courier, monospace;
-    text-size-adjust: 30px;
-    text-align:center;
+    text-emphasis:initial ;
+    text-align:left;
+    margin-right: 10%;
+    padding-left: 1%;
+    font-display:var(center);
+    font-size: bold;
+    float: left;
+    
 }
 img{
     margin: 0;
-    padding:2%;
+    padding:3%;
+
+}
+.main{
+    display: grid;
+    grid-template-columns: 5fr 7fr 1fr;
+    background-image: url(food-bg.jpg);
+    background-repeat: repeat;
 
 }
